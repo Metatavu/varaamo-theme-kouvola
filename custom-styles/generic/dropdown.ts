@@ -1,13 +1,13 @@
 import { createStyles } from "@material-ui/core";
 
-export const styles = createStyles({
+export default createStyles({
 
   root: {
-    display: "flex"
+
   },
 
   select: {
-    flex: 1
+
   },
 
 });

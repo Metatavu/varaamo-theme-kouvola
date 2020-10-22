@@ -1,13 +1,14 @@
 import { createStyles } from "@material-ui/core";
+import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
   root: {
-    display: "flex",
+
   },
 
   input: {
-    flex: 1
+    color: theme.palette.text.primary
   },
 
 });
