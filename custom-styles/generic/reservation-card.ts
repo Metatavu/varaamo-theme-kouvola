@@ -3,29 +3,17 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  container: {
+  container: { },
 
-  },
+  card: { },
 
-  card: {
+  cardContent: { },
 
-  },
+  cardImageContainer: { },
 
-  cardContent: {
+  cardText: { },
 
-  },
-
-  cardImageContainer: {
-
-  },
-
-  cardText: {
-
-  },
-
-  cardDetails: {
-
-  },
+  cardDetails: { },
 
   cardName: {
     color: theme.palette.text.primary,

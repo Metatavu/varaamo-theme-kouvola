@@ -3,36 +3,20 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  container: {
+  container: { },
 
-  },
+  card: { },
 
-  card: {
+  cardContent: { },
 
-  },
+  cardImageContainer: { },
 
-  cardContent: {
+  cardText: { },
 
-  },
+  cardDetails: { },
 
-  cardImageContainer: {
+  cardName: { },
 
-  },
-
-  cardText: {
-
-  },
-
-  cardDetails: {
-
-  },
-
-  cardName: {
-
-  },
-
-  cardDescription: {
-
-  },
+  cardDescription: { },
 
 });

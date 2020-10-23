@@ -3,16 +3,10 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: {
+  root: { },
 
-  },
+  datepicker: { },
 
-  datepicker: {
-
-  },
-
-  arrowIcon: {
-
-  }
+  arrowIcon: { }
 
 });

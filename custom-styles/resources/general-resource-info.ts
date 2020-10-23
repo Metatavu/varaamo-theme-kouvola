@@ -2,36 +2,20 @@ import { createStyles } from "@material-ui/core";
 
 export default createStyles({
 
-  root: {
+  root: { },
 
-  },
+  infoContainer: { },
 
-  infoContainer: {
+  infoTextContainer: { },
 
-  },
+  title: { },
 
-  infoTextContainer: {
+  description: { },
 
-  },
+  infoIconsContainer: { },
 
-  title: {
+  imageContainer: { },
 
-  },
-
-  description: {
-
-  },
-
-  infoIconsContainer: {
-
-  },
-
-  imageContainer: {
-
-  },
-
-  resourceImage: {
-
-  }
+  resourceImage: { }
 
 });

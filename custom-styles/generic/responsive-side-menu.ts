@@ -3,33 +3,21 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: {
-
-  },
+  root: { },
 
   drawerContent: {
     backgroundColor: theme.palette.primary.main
   },
 
-  logoArea: {
+  logoArea: { },
 
-  },
+  logo: { },
 
-  logo: {
+  logoTextArea: { },
 
-  },
+  logoText: { },
 
-  logoTextArea: {
-
-  },
-
-  logoText: {
-
-  },
-
-  menu: {
-
-  },
+  menu: { },
 
   menuItem: {
     color: theme.palette.common.white

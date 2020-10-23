@@ -2,16 +2,10 @@ import { createStyles } from "@material-ui/core";
 
 export default createStyles({
 
-  container: {
-    
-  },
+  container: { },
 
-  iconContainer: {
+  iconContainer: { },
 
-  },
-
-  iconText: {
-
-  }
+  iconText: { }
 
 });

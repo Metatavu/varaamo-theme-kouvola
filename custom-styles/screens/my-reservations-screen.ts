@@ -8,8 +8,6 @@ export default createStyles({
     backgroundColor: theme.palette.background.default,
   },
 
-  heading: {
-
-  },
+  heading: { },
 
 });

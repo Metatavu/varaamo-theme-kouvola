@@ -3,24 +3,16 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  container: {
-
-  },
+  container: { },
 
   card: {
     backgroundColor: theme.palette.primary.main
   },
 
-  cardContent: {
+  cardContent: { },
 
-  },
+  cardName: { },
 
-  cardName: {
-
-  },
-
-  link: {
-
-  },
+  link: { },
 
 });

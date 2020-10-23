@@ -8,32 +8,18 @@ export default createStyles({
     backgroundColor: theme.palette.primary.main,
   },
 
-  container: {
+  container: { },
 
-  },
+  grid: { },
 
-  grid: {
+  firstColumn: { },
 
-  },
+  logo: { },
 
-  firstColumn: {
+  appTitleText: { },
 
-  },
+  secondColumn: { },
 
-  logo: {
-
-  },
-
-  appTitleText: {
-
-  },
-
-  secondColumn: {
-
-  },
-
-  thirdColumn: {
-
-  },
+  thirdColumn: { },
 
 });

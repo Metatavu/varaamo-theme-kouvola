@@ -3,42 +3,29 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: {},
+  root: { },
 
   appBar: {
     color: theme.palette.text.secondary,
   },
 
-  toolBar: {
-
-  },
+  toolBar: { },
 
   homeButton: {
     color: theme.palette.text.secondary,
   },
 
-  toolBarDesktopContent: {
+  toolBarDesktopContent: { },
 
-  },
+  toolBarMobileContent: { },
 
-  toolBarMobileContent: {
+  desktopList: { },
 
-  },
+  mobileList: { },
 
-  desktopList: {
-
-  },
-
-  mobileList: {
-
-  },
-
-  menuItem: {
-
-  },
+  menuItem: { },
 
   mobileMenuButton: {
-
     color: theme.palette.common.white
   }
 

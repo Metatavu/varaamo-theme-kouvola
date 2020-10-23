@@ -7,17 +7,11 @@ export default createStyles({
     backgroundImage: `url("")`,
   },
 
-  banner: {
+  banner: { },
 
-  },
+  bannerHeading: { },
 
-  bannerHeading: {
-
-  },
-
-  bannerDescription: {
-
-  },
+  bannerDescription: { },
 
 });
 

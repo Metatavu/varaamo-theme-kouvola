@@ -3,20 +3,14 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: {
-
-  },
+  root: { },
 
   headerContainer: {
     backgroundColor: theme.palette.secondary.main,
   },
 
-  timeText: {
+  timeText: { },
 
-  },
-
-  reservationText: {
-
-  },
+  reservationText: { },
 
 });

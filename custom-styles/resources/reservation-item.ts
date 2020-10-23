@@ -3,20 +3,15 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  container: {
-  },
+  container: { },
 
   checkBox: {
     color: theme.palette.primary.main
   },
 
-  timeText: {
+  timeText: { },
 
-  },
-
-  reservationText: {
-
-  },
+  reservationText: { },
 
   dataContainer: {
     "& .MuiCheckbox-colorSecondary.Mui-checked" : {

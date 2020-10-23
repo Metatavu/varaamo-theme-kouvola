@@ -3,32 +3,20 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: {
-
-  },
+  root: { },
 
   appBar: {
     backgroundColor: theme.palette.common.white
   },
 
-  toolBar: {
+  toolBar: { },
 
-  },
+  logo: { },
 
-  logo: {
+  select: { },
 
-  },
+  menuItem: { },
 
-  select: {
-
-  },
-
-  menuItem: {
-
-  },
-
-  button: {
-
-  },
+  button: { },
 
 });

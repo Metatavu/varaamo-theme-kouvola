@@ -8,20 +8,12 @@ export default createStyles({
     backgroundColor: theme.palette.background.default
   },
 
-  reservationContainer: {
+  reservationContainer: { },
 
-  },
+  datePickerContainer: { },
 
-  datePickerContainer: {
+  dateListContainer: { },
 
-  },
-
-  dateListContainer: {
-
-  },
-
-  reserveButton: {
-
-  }
+  reserveButton: { }
 
 });

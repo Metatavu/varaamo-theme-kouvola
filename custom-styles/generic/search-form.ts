@@ -3,25 +3,15 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: {
+  root: { },
 
-  },
+  formRow: { },
 
-  formRow: {
+  formColumn: { },
 
-  },
+  formDivider: { },
 
-  formColumn: {
-
-  },
-
-  formDivider: {
-
-  },
-
-  formSubmit: {
-
-  },
+  formSubmit: { },
 
   searchButton: {
     color: theme.palette.text.secondary,

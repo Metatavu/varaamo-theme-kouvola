@@ -3,9 +3,7 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: {
-
-  },
+  root: { },
 
   input: {
     color: theme.palette.text.primary

@@ -11,9 +11,7 @@ export default createStyles({
     color: theme.palette.primary.contrastText
   },
 
-  purposes: {
-
-  },
+  purposes: { },
 
   swapIcon: {
     color: theme.palette.text.secondary

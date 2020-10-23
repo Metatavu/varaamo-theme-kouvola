@@ -3,32 +3,22 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: {
+  root: { },
 
-  },
+  list: { },
 
-  list: {
-
-  },
-
-  container: {
-
-  },
+  container: { },
 
   card: {
     backgroundColor: theme.palette.primary.main
   },
 
-  cardContent: {
-
-  },
+  cardContent: { },
 
   cardName: {
     color: theme.palette.text.secondary
   },
 
-  link: {
-
-  },
+  link: { },
 
 });

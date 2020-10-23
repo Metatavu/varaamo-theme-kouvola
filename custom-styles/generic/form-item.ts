@@ -2,16 +2,10 @@ import { createStyles } from "@material-ui/core";
 
 export default createStyles({
 
-  root: {
+  root: { },
 
-  },
+  label: { },
 
-  label: {
-
-  },
-
-  component: {
-
-  },
+  component: { },
 
 });
