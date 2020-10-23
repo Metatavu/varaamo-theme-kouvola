@@ -3,18 +3,15 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  container: {
-    backgroundColor: theme.palette.background.default,
+  root: {
+    color: theme.palette.primary.contrastText,
+    "& .Mui-checked": {
+      color: theme.palette.primary.contrastText
+    }
   },
 
-  heading: {
+  checkbox: {
     color: theme.palette.primary.contrastText
-  },
-
-  purposes: { },
-
-  swapIcon: {
-    color: theme.palette.text.secondary
-  },
+  }
 
 });

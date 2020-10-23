@@ -1,59 +1,35 @@
 import { createStyles } from "@material-ui/core";
 import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
-  container: {
-    backgroundColor: "#757575",
-    marginTop: 25,
-    marginBottom: 25,
-  },
+  container: { },
 
-  card: {
-    height: "auto"
-  },
+  card: { },
 
-  cardContent: {
-    display: "flex",
-    flexDirection: "row",
-    [theme.breakpoints.down("sm")]: {
-      flexDirection: "column"
-    }
-  },
+  cardContent: { },
 
-  cardImageContainer: {
-    flex: 1,
-    padding: 10,
-  },
+  cardImageContainer: { },
 
-  cardText: {
-    flex: 2,
-    padding: 10,
-    display: "flex",
-    flexDirection: "column"
-  },
+  cardText: { },
 
-  cardDetails: {
-    flex: 1,
-    padding: 10,
-    display: "flex",
-    flexDirection: "column"
-  },
+  cardDetails: { },
 
   cardName: {
-
+    color: theme.palette.text.primary,
   },
 
   cardDescription: {
-
+    color: theme.palette.text.primary,
   },
 
   subDescription: {
-    marginTop: "auto"
+    color: theme.palette.text.primary,
   },
 
   cancelButton: {
-    marginTop: 20,
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.text.secondary
   },
 
 });

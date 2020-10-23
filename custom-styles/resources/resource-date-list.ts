@@ -1,26 +1,16 @@
 import { createStyles } from "@material-ui/core";
 import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
-  root: {
-    padding: 25
-  },
+  root: { },
 
   headerContainer: {
-    display: "flex",
-    alignItems: "center",
     backgroundColor: theme.palette.secondary.main,
-    minHeight: 70,
-    color: "#ffffff"
   },
 
-  timeText: {
-    paddingLeft: 10
-  },
+  timeText: { },
 
-  reservationText: {
-    marginLeft: "50%"
-  },
+  reservationText: { },
 
 });

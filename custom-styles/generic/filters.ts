@@ -3,18 +3,22 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  container: {
-    backgroundColor: theme.palette.background.default,
+  root: { },
+
+  list: { },
+
+  container: { },
+
+  card: {
+    backgroundColor: theme.palette.primary.main
   },
 
-  heading: {
-    color: theme.palette.primary.contrastText
-  },
+  cardContent: { },
 
-  purposes: { },
-
-  swapIcon: {
+  cardName: {
     color: theme.palette.text.secondary
   },
+
+  link: { },
 
 });
