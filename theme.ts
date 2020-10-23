@@ -12,7 +12,7 @@ export default createMuiTheme({
     },
     background: {
       default: "#FFFFFF",
-      paper: "#F7F9FC"
+      paper: "#f5f5f5"
     },
     success: {
       main: "#61C88D"
@@ -42,14 +42,14 @@ export default createMuiTheme({
     }
   },
 
-  typography: {},
+  typography: { },
 
   overrides: {
     MuiCssBaseline: {
       "@global": {
-        "::-webkit-scrollbar-track": {},
-        "::-webkit-scrollbar": {},
-        "::-webkit-scrollbar-thumb": {}
+        "::-webkit-scrollbar-track": { },
+        "::-webkit-scrollbar": { },
+        "::-webkit-scrollbar-thumb": { }
       }
     }
   }

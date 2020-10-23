@@ -5,7 +5,19 @@ import theme from "../../theme";
 export default createStyles({
 
   container: {
-    backgroundColor: theme.palette.background.default
+    color: theme.palette.text.primary,
+    backgroundColor: theme.palette.background.default,
+  },
+
+  buttonGroup: { },
+
+  reservationSwitch: {
+    color: theme.palette.text.secondary,
+    backgroundColor: theme.palette.primary.main
+  },
+
+  selected: {
+    backgroundColor: theme.palette.primary.contrastText
   },
 
   reservationContainer: { },
@@ -13,6 +25,8 @@ export default createStyles({
   datePickerContainer: { },
 
   dateListContainer: { },
+
+  reservedTimesContainer: { },
 
   reserveButton: { }
 

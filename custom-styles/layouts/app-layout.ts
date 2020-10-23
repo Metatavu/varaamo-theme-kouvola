@@ -8,7 +8,7 @@ export default createStyles({
   },
 
   content: {
-    backgroundColor: theme.palette.secondary.main
+    backgroundColor: theme.palette.background.paper
   }
 
 });
