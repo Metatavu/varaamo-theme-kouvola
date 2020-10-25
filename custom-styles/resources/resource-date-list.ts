@@ -6,7 +6,7 @@ export default createStyles({
   root: { },
 
   headerContainer: {
-    backgroundColor: theme.palette.secondary.main,
+    backgroundColor: theme.palette.primary.main,
   },
 
   timeText: { },
