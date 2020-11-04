@@ -6,7 +6,11 @@ export default createStyles({
   container: { },
 
   checkBox: {
-    color: theme.palette.primary.main
+    color: theme.palette.secondary.main
+  },
+
+  available: {
+    color: theme.palette.primary.contrastText,
   },
 
   timeText: { },

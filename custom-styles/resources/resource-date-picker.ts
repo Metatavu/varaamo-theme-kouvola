@@ -20,5 +20,5 @@ export default createStyles({
     }
   },
 
-  calender: { },
+  calendar: { },
 });
