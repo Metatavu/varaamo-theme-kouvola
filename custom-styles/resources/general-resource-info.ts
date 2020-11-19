@@ -6,13 +6,13 @@ export default createStyles({
 
   infoContainer: { },
 
-  infoTextContainer: { },
+  descriptionContainer: { },
 
   title: { },
 
   description: { },
 
-  infoIconsContainer: { },
+  detailsContainer: { },
 
   imageContainer: { },
 
