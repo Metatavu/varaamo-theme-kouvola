@@ -106,6 +106,9 @@ export default createMuiTheme({
         },
         [defaultTheme.breakpoints.down("sm")]: {
           minHeight: 350
+        },
+        [defaultTheme.breakpoints.down("xs")]: {
+          minHeight: 225
         }
       }
     },
@@ -122,10 +125,13 @@ export default createMuiTheme({
         margin: 0,
         fontSize: 14,
         [defaultTheme.breakpoints.down("md")]: {
-          width: 40
+          width: 44
         },
         [defaultTheme.breakpoints.down("sm")]: {
           width: 64
+        },
+        [defaultTheme.breakpoints.down("xs")]: {
+          width: 39
         }
       },
       switchHeader: {
@@ -133,7 +139,10 @@ export default createMuiTheme({
         marginBottom: 30
       },
       iconButton: {
-        margin: "0 20px"
+        margin: "0 20px",
+        [defaultTheme.breakpoints.down("xs")]: {
+          margin: "0 10px"
+        }
       }
     },
     MuiPickersDay: {
@@ -150,6 +159,10 @@ export default createMuiTheme({
         [defaultTheme.breakpoints.down("sm")]: {
           height: 60,
           width: 60
+        },
+        [defaultTheme.breakpoints.down("xs")]: {
+          height: 35,
+          width: 35
         }
       },
       daySelected: {
