@@ -28,6 +28,19 @@ export default createStyles({
 
   reservedTimesContainer: { },
 
-  reserveButton: { }
+  cancelButton: {
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.common.white
+  },
+
+  reserveButton: {
+    backgroundColor: theme.palette.primary.contrastText,
+    color: theme.palette.common.white
+  },
+
+  disabled: {
+    backgroundColor: theme.palette.action.disabledBackground,
+    color: theme.palette.action.disabled
+  }
 
 });

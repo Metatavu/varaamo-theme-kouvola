@@ -17,10 +17,6 @@ export default createStyles({
 
   reservationText: { },
 
-  dataContainer: {
-    "& .MuiCheckbox-colorSecondary.Mui-checked" : {
-      color: theme.palette.primary.main
-    }
-  }
+  dataContainer: { }
 
 });
