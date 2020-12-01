@@ -54,6 +54,11 @@ export default createMuiTheme({
         "::-webkit-scrollbar-thumb": { }
       }
     },
+    MuiFilledInput: {
+      input:{
+        padding: "13px 12px 10px"
+      }
+    },
     MuiPickersToolbar: {
       toolbar: {
         backgroundColor: "#1e8531",
