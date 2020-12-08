@@ -13,7 +13,7 @@ export default createStyles({
 
   logo: { },
 
-  select: { },
+  selectRoot: { },
 
   menuItem: { },
 
