@@ -46,17 +46,22 @@ export default createMuiTheme({
 
   typography: { },
 
+  props: {
+    MuiTextField: {
+      size: "small",
+      variant: "filled",
+      InputLabelProps: {
+        variant: "filled"
+      }
+    }
+  },
+
   overrides: {
     MuiCssBaseline: {
       "@global": {
         "::-webkit-scrollbar-track": { },
         "::-webkit-scrollbar": { },
         "::-webkit-scrollbar-thumb": { }
-      }
-    },
-    MuiFilledInput: {
-      input:{
-        padding: "13px 12px 10px"
       }
     },
     MuiPickersToolbar: {
