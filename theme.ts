@@ -103,7 +103,6 @@ export default createMuiTheme({
       }
     },
     MuiPickersCalendar: {
-      borderRadius: 4,
       transitionContainer: {
         minHeight: 350,
         [defaultTheme.breakpoints.down("md")]: {
