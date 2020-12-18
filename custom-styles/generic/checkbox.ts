@@ -4,10 +4,7 @@ import theme from "../../theme";
 export default createStyles({
 
   root: {
-    color: theme.palette.primary.contrastText,
-    "& .Mui-checked": {
-      color: theme.palette.primary.contrastText
-    }
+    color: theme.palette.primary.contrastText
   },
 
   checkbox: {
