@@ -7,9 +7,14 @@ export default createStyles({
     color: theme.palette.primary.contrastText
   },
 
-  confirmButton: {
+  cancelButton: {
     color: theme.palette.common.white,
     backgroundColor: theme.palette.primary.main
+  },
+
+  confirmButton: {
+    color: theme.palette.common.white,
+    backgroundColor: theme.palette.primary.contrastText
   },
 
 });
